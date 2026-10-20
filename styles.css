@@ -325,6 +325,7 @@ fieldset br {
 .gossip-results {
     text-align: center;
     max-width: 560px;
+    scroll-margin-top: 80px;
 }
 
 .gossip-results h2 {
