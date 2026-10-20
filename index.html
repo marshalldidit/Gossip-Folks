@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gossip Folks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gossip Folks</h1>
+    </header>
+
+    <section class="gossip-landing">
+        <h2>Find Out Your Gossip Type</h2>
+        <div class="gossip-intro">
+            <h3>What is a Gossip Type?</h3>
+            <p>We all gossip. The question is how? And why? Maybe you're the town gossip or perhaps you just hoard everybody else's tea. <br><br> This quiz won’t tell you to stop a perfectly natural human behavior, but it will show you your patterns.</p>
+        </div>
+        <div class="quiz-info">
+            <div>
+                <img src="gossip-icon1.png" alt="Gossip Icon" class="gossip-icon">
+                <h5>Take The Quiz</h5>
+                <p>A few scenarios, zero overthinking. You know you have opinions -- spill them.</p>
+            </div>
+            <div>
+                <img src="gossip-icon2.png" alt="Gossip Icon" class="gossip-icon">
+                <h5>Discover Your Gossip Type</h5>
+                <p>A full, illustrated readout of who you are and what you’re doing -- receipts included.</p>
+            </div>
+            <div>
+                <img src="gossip-icon3.png" alt="Gossip Icon" class="gossip-icon">
+                <h5>No Judgment, Just Insight</h5>
+                <p>You’re going to get read a little. However, you won't be judged -- there’s a difference.</p>
+            </div>
+            <p>To take the gossip type test, mark your answers based on how well each statement describes you. Scroll down to begin.</p>
+        </div>
+    </section>
+
+    <section class="gossip-quiz">
+        <form id="gossip-quiz-form">
+            <fieldset data-category="work" data-axis="motive">
+                <legend>Question 1</legend>
+                <p>If a coworker were struggling with something, I'd be more focused on whether they're okay than on what exactly is going on.</p>
+                <label><input type="radio" name="q1" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q1" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q1" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q1" value="agree">Agree</label><br>
+                <label><input type="radio" name="q1" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="school" data-axis="role">
+                <legend>Question 2</legend>
+                <p>When gossip about classmates comes up, I'm usually the one adding new info rather than just listening.</p>
+                <label><input type="radio" name="q2" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q2" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q2" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q2" value="agree">Agree</label><br>
+                <label><input type="radio" name="q2" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="social-media" data-axis="discretion">
+                <legend>Question 3</legend>
+                <p>If I had thoughts about something I saw online, I'd rather comment or post publicly than send a private message to just one person.</p>
+                <label><input type="radio" name="q3" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q3" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q3" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q3" value="agree">Agree</label><br>
+                <label><input type="radio" name="q3" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="family" data-axis="motive">
+                <legend>Question 4</legend>
+                <p>If I heard that a family member was going through something, I'd be more interested in making sure they're okay than in hearing the juicy details.</p>
+                <label><input type="radio" name="q4" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q4" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q4" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q4" value="agree">Agree</label><br>
+                <label><input type="radio" name="q4" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="politics" data-axis="role">
+                <legend>Question 5</legend>
+                <p>When political gossip or news comes up in conversation, I'm usually the one bringing new details rather than just listening.</p>
+                <label><input type="radio" name="q5" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q5" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q5" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q5" value="agree">Agree</label><br>
+                <label><input type="radio" name="q5" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="friends" data-axis="discretion">
+                <legend>Question 6</legend>
+                <p>If I heard something surprising about a friend, I'd rather bring it up in the group chat than mention it to just one other friend.</p>
+                <label><input type="radio" name="q6" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q6" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q6" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q6" value="agree">Agree</label><br>
+                <label><input type="radio" name="q6" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="pop-culture" data-axis="motive">
+                <legend>Question 7</legend>
+                <p>When a celebrity or influencer is going through something publicly, I'm more interested in the human side of it than in the scandal itself.</p>
+                <label><input type="radio" name="q7" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q7" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q7" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q7" value="agree">Agree</label><br>
+                <label><input type="radio" name="q7" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="work" data-axis="discretion">
+                <legend>Question 8</legend>
+                <p>If I heard office news, I'd rather bring it up in a group Slack channel or at a team lunch than mention it to just one coworker.</p>
+                <label><input type="radio" name="q8" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q8" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q8" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q8" value="agree">Agree</label><br>
+                <label><input type="radio" name="q8" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="family" data-axis="role">
+                <legend>Question 9</legend>
+                <p>When family news comes up in a group chat or at dinner, I'm usually the one adding new details rather than just reading along.</p>
+                <label><input type="radio" name="q9" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q9" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q9" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q9" value="agree">Agree</label><br>
+                <label><input type="radio" name="q9" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="social-media" data-axis="motive">
+                <legend>Question 10</legend>
+                <p>If I saw someone's cryptic post or story, I'd be more focused on whether they're okay than on figuring out who or what it's about.</p>
+                <label><input type="radio" name="q10" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q10" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q10" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q10" value="agree">Agree</label><br>
+                <label><input type="radio" name="q10" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="school" data-axis="motive">
+                <legend>Question 11</legend>
+                <p>If I heard a classmate was dealing with something hard, I'd be more focused on their wellbeing than on the details of what happened.</p>
+                <label><input type="radio" name="q11" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q11" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q11" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q11" value="agree">Agree</label><br>
+                <label><input type="radio" name="q11" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="politics" data-axis="discretion">
+                <legend>Question 12</legend>
+                <p>If I had thoughts about political news, I'd rather post about it publicly than just mention it to one person privately.</p>
+                <label><input type="radio" name="q12" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q12" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q12" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q12" value="agree">Agree</label><br>
+                <label><input type="radio" name="q12" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="friends" data-axis="role">
+                <legend>Question 13</legend>
+                <p>When gossip about a mutual friend comes up, I'm usually the one bringing new info to the conversation rather than just listening in.</p>
+                <label><input type="radio" name="q13" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q13" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q13" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q13" value="agree">Agree</label><br>
+                <label><input type="radio" name="q13" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="pop-culture" data-axis="discretion">
+                <legend>Question 14</legend>
+                <p>If I had an opinion about a celebrity scandal, I'd rather post about it publicly than just text a friend privately.</p>
+                <label><input type="radio" name="q14" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q14" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q14" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q14" value="agree">Agree</label><br>
+                <label><input type="radio" name="q14" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="work" data-axis="role">
+                <legend>Question 15</legend>
+                <p>When office gossip comes up, I'm usually the one steering the conversation rather than just nodding along.</p>
+                <label><input type="radio" name="q15" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q15" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q15" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q15" value="agree">Agree</label><br>
+                <label><input type="radio" name="q15" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="family" data-axis="discretion">
+                <legend>Question 16</legend>
+                <p>If I found out surprising news about a cousin, I'd rather bring it up at a big family gathering than mention it quietly to just one relative.</p>
+                <label><input type="radio" name="q16" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q16" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q16" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q16" value="agree">Agree</label><br>
+                <label><input type="radio" name="q16" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="social-media" data-axis="role">
+                <legend>Question 17</legend>
+                <p>When something's circulating online — a post, a screenshot, a thread — I'm usually the one adding context or forwarding it rather than just scrolling past.</p>
+                <label><input type="radio" name="q17" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q17" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q17" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q17" value="agree">Agree</label><br>
+                <label><input type="radio" name="q17" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="school" data-axis="discretion">
+                <legend>Question 18</legend>
+                <p>If I heard something surprising about a classmate, I'd rather mention it in a bigger group than tell just one friend quietly.</p>
+                <label><input type="radio" name="q18" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q18" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q18" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q18" value="agree">Agree</label><br>
+                <label><input type="radio" name="q18" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="politics" data-axis="motive">
+                <legend>Question 19</legend>
+                <p>When a politician is caught up in controversy, I'm more interested in what it means for people affected than in the scandal itself.</p>
+                <label><input type="radio" name="q19" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q19" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q19" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q19" value="agree">Agree</label><br>
+                <label><input type="radio" name="q19" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="friends" data-axis="motive">
+                <legend>Question 20</legend>
+                <p>If a friend were going through a rough patch, I'd be more focused on checking in on them than on knowing exactly what happened.</p>
+                <label><input type="radio" name="q20" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q20" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q20" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q20" value="agree">Agree</label><br>
+                <label><input type="radio" name="q20" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <fieldset data-category="pop-culture" data-axis="role">
+                <legend>Question 21</legend>
+                <p>When celebrity gossip comes up, I'm usually the one bringing the latest update rather than hearing about it from someone else first.</p>
+                <label><input type="radio" name="q21" value="strongly-disagree" required aria-required="true">Strongly Disagree</label><br>
+                <label><input type="radio" name="q21" value="disagree">Disagree</label><br>
+                <label><input type="radio" name="q21" value="neutral">Neutral</label><br>
+                <label><input type="radio" name="q21" value="agree">Agree</label><br>
+                <label><input type="radio" name="q21" value="strongly-agree">Strongly Agree</label>
+            </fieldset>
+
+            <button type="submit">See My Gossip Type</button>
+        </form>
+    </section>
+
+    <section class="gossip-results">
+        <h2>Your Gossip Type</h2>
+        <div id="gossip-type-result" class="result-pending">
+            <p class="result-placeholder-text">Complete the quiz above to reveal your gossip type.</p>
+        </div>
+    </section>
+
+    <section class="gossip-types">
+        <h2>Gossip Types</h2>
+        <div class="gossip-type">
+            <img src="gossip-type-protector.png" alt="Illustrated character representing The Protector archetype" class="gossip-type-icon">
+            <h3>The Protector</h3>
+            <p>Checks on you quietly before anyone else even hears what happened.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-confidant.png" alt="Illustrated character representing The Confidant archetype" class="gossip-type-icon">
+            <h3>The Confidant</h3>
+            <p>Collects everyone's secrets and somehow never spills a single one.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-auntie.png" alt="Illustrated character representing The Auntie archetype" class="gossip-type-icon">
+            <h3>The Auntie</h3>
+            <p>Worried about you — and everyone within earshot now knows it. Very messy, with love.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-observer.png" alt="Illustrated character representing The Observer archetype" class="gossip-type-icon">
+            <h3>The Observer</h3>
+            <p>Reads every post, listens to everything, says nothing, has so many thoughts.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-spiller.png" alt="Illustrated character representing The Spiller archetype" class="gossip-type-icon">
+            <h3>The Spiller</h3>
+            <p>Gossip is their love language — quick, discreet, and genuinely talented in spilling tea.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-lurker.png" alt="Illustrated character representing The Lurker archetype" class="gossip-type-icon">
+            <h3>The Lurker</h3>
+            <p>Knows everything. Repeats nothing. No one knows how.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-host.png" alt="Illustrated character representing The TV/Radio Host archetype" class="gossip-type-icon">
+            <h3>The TV/Radio Host</h3>
+            <p>Gossip isn't a guilty pleasure here — it's a whole broadcast.</p>
+        </div>
+        <div class="gossip-type">
+            <img src="gossip-type-spectator.png" alt="Illustrated character representing The Spectator archetype" class="gossip-type-icon">
+            <h3>The Spectator</h3>
+            <p>Front row for the drama but never actually in it.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gossip Folks. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
