@@ -50,7 +50,7 @@
     },
     observer: {
       name: 'The Observer',
-      image: 'gossip-type-concerned-observer.png',
+      image: 'gossip-type-observer.png',
       description:
         "You're The Observer: deeply invested in everyone's business, surgically uninvolved in everyone's business. You'll read every post, screenshot nothing, say nothing, and somehow still have thoughts.",
       impact:
@@ -58,7 +58,7 @@
     },
     spiller: {
       name: 'The Spiller',
-      image: 'gossip-type-grapevine.png',
+      image: 'gossip-type-spiller.png',
       description:
         "The Spiller, ladies and gentlemen. Gossip is basically your love language \u2014 you trade it one-on-one, quick and discreet, and you're genuinely good at it. A professional, really.",
       impact:
@@ -74,7 +74,7 @@
     },
     host: {
       name: 'The TV/Radio Host',
-      image: 'gossip-type-talk-show-host.png',
+      image: 'gossip-type-host.png',
       description:
         "You're The TV/Radio Host \u2014 gossip isn't a guilty pleasure for you, it's a whole broadcast. You've got the updates, the delivery, the audience. Honestly, give yourself a segment.",
       impact:
